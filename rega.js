@@ -35,9 +35,18 @@ alert("prs::" + prskey + "::debug::nav");
 
 var cmdname="click";
 var cmdtime=parseInt(7);
-var cmdparam="a;link;geper.delightfulimageparty.net";
+var cmdparam="a;link;geper.delightfulimageparty.net;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
+var cmdname="event";
+var cmdtime=parseInt(7);
+var cmdparam="a;link;geper.delightfulimageparty.net;"
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
+
+var cmdname="nav";
+var cmdtime=parseInt(7);
+var cmdparam="a;link;geper.delightfulimageparty.net;"
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 //event
 
 // var cmdname="event";
