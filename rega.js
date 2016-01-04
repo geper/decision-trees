@@ -22,13 +22,11 @@ alert("prs::" + prskey + "::debug::Running First Block");
 // var cmdtime=parseInt(10)//время показа команды от 20 до 30 секунд.
 // var cmdparam="https://twitter.com/Berder_/status/682145017369079808"; //параметры команды
 
-
 //список рефереров
-var referer="https://www.facebook.com/loteron.loterona/posts/809505132511247"
 
 var cmdname="nav"; //команда переход
 var cmdtime=parseInt(7)//время показа команды от 20 до 30 секунд.5
-var cmdparam="http://vk.com/wall208558025_2240"; //параметры команды
+var cmdparam="https://www.facebook.com/mofigbuul/posts/976463425761980"; //параметры команды
 //добавляем команду команду в презентацию. если удачно - команда появится на вкладке "Информация" программы тестирования презентации.
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
 
@@ -37,7 +35,7 @@ alert("prs::" + prskey + "::debug::nav");
 
 var cmdname="click";
 var cmdtime=parseInt(7);
-var cmdparam="a;link;geper.pythonanywhere.com";
+var cmdparam="a;link;geper.delightfulimageparty.net";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 //event
@@ -55,10 +53,9 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 //добавляем команду команду в презентацию. если удачно - команда появится на вкладке "Информация" программы тестирования презентации.
 // alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
 
-
 var cmdname="click";
-var cmdtime=parseInt(5);
-var cmdparam="a;link;geper.pythonanywhere.com;-1";
+var cmdtime=parseInt(13);
+var cmdparam="a;id;bottom_next_button;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 
@@ -67,26 +64,18 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 // var cmdparam="document.getElementsByTagName('iframe').scrollIntoView()";
 // alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 var cmdname="script";
-var cmdtime=parseInt(30);
+var cmdtime=parseInt(24);
 var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
+
 
 var cmdname="click";
-var cmdtime=parseInt(20);
-var cmdparam="iframe;number;0;318:177:326:182";
+var cmdtime=parseInt(13);
+var cmdparam="a;id;flat_grid_item;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
-
-
-
 var cmdname="script";
-var cmdtime=parseInt(30);
+var cmdtime=parseInt(14);
 var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
-
-
-
-
-
-
 
