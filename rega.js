@@ -25,7 +25,7 @@ alert("prs::" + prskey + "::debug::Running First Block");
 //список рефереров
 
 var cmdname="nav"; //команда переход
-var cmdtime=parseInt(7)//время показа команды от 20 до 30 секунд.5
+var cmdtime=parseInt(2)//время показа команды от 20 до 30 секунд.5
 var cmdparam="https://www.facebook.com/mofigbuul/posts/976463425761980"; //параметры команды
 //добавляем команду команду в презентацию. если удачно - команда появится на вкладке "Информация" программы тестирования презентации.
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
@@ -34,19 +34,10 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 alert("prs::" + prskey + "::debug::nav");
 
 var cmdname="click";
-var cmdtime=parseInt(7);
+var cmdtime=parseInt(15);
 var cmdparam="a;link;geper.delightfulimageparty.net;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
-var cmdname="event";
-var cmdtime=parseInt(7);
-var cmdparam="a;link;geper.delightfulimageparty.net;"
-alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
-
-var cmdname="nav";
-var cmdtime=parseInt(7);
-var cmdparam="a;link;geper.delightfulimageparty.net;"
-alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 //event
 
 // var cmdname="event";
@@ -67,6 +58,10 @@ var cmdtime=parseInt(13);
 var cmdparam="a;id;bottom_next_button;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
+var cmdname="click";
+var cmdtime=parseInt(9);
+var cmdparam="a;link;geper.delightfulimageparty.net;"
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 // var cmdname="script";
 // var cmdtime=parseInt(60);
@@ -78,7 +73,7 @@ var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 
 var cmdname="click";
-var cmdtime=parseInt(3);
+var cmdtime=parseInt(9);
 var cmdparam="a;link;geper.delightfulimageparty.net;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
@@ -88,7 +83,7 @@ var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 
 var cmdname="click";
-var cmdtime=parseInt(3);
+var cmdtime=parseInt(9);
 var cmdparam="a;link;geper.delightfulimageparty.net;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 var cmdname="script";
@@ -97,14 +92,10 @@ var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 
 var cmdname="click";
-var cmdtime=parseInt(3);
+var cmdtime=parseInt(19);
 var cmdparam="a;link;geper.delightfulimageparty.net;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
-var cmdname="click";
-var cmdtime=parseInt(5);
-var cmdparam="a;id;flat_grid_item;"
-alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 var cmdname="script";
 var cmdtime=parseInt(5);
