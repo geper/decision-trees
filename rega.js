@@ -73,18 +73,41 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 // var cmdparam="document.getElementsByTagName('iframe').scrollIntoView()";
 // alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 var cmdname="script";
-var cmdtime=parseInt(24);
+var cmdtime=parseInt(4);
 var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 
+var cmdname="click";
+var cmdtime=parseInt(3);
+var cmdparam="a;link;geper.delightfulimageparty.net;"
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
+
+var cmdname="script";
+var cmdtime=parseInt(4);
+var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 
 var cmdname="click";
-var cmdtime=parseInt(13);
+var cmdtime=parseInt(3);
+var cmdparam="a;link;geper.delightfulimageparty.net;"
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
+var cmdname="script";
+var cmdtime=parseInt(4);
+var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
+
+var cmdname="click";
+var cmdtime=parseInt(3);
+var cmdparam="a;link;geper.delightfulimageparty.net;"
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
+
+var cmdname="click";
+var cmdtime=parseInt(5);
 var cmdparam="a;id;flat_grid_item;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 var cmdname="script";
-var cmdtime=parseInt(14);
+var cmdtime=parseInt(5);
 var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 
