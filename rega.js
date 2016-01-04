@@ -55,12 +55,12 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 
 var cmdname="click";
 var cmdtime=parseInt(13);
-var cmdparam="a;id;bottom_next_button;"
+var cmdparam="a;id;bottom_next_button;-1"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 var cmdname="click";
 var cmdtime=parseInt(9);
-var cmdparam="a;link;geper.delightfulimageparty.net;"
+var cmdparam="a;link;geper.delightfulimageparty.net;-1"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 // var cmdname="script";
@@ -74,7 +74,7 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 
 var cmdname="click";
 var cmdtime=parseInt(9);
-var cmdparam="a;link;geper.delightfulimageparty.net;"
+var cmdparam="a;link;geper.delightfulimageparty.net;-1"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 var cmdname="script";
@@ -84,7 +84,7 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 
 var cmdname="click";
 var cmdtime=parseInt(9);
-var cmdparam="a;link;geper.delightfulimageparty.net;"
+var cmdparam="a;link;geper.delightfulimageparty.net;-1;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 var cmdname="script";
 var cmdtime=parseInt(4);
@@ -93,7 +93,7 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 
 var cmdname="click";
 var cmdtime=parseInt(19);
-var cmdparam="a;link;geper.delightfulimageparty.net;"
+var cmdparam="a;link;geper.delightfulimageparty.net;-1;"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 
 
