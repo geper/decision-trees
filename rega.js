@@ -12,7 +12,7 @@ alert("prs::" + prskey + "::debug::Running First Block");
 //список рефереров
 var cmdname="nav"; //команда переход
 var cmdtime=parseInt(13)//время показа команды от 20 до 30 секунд.5
-var cmdparam="http://mobile.twitter.com/DimonDDDDD"; //параметры команды
+var cmdparam="http://mobile.twitter.com/loteron_f"; //параметры команды
 //добавляем команду команду в презентацию. если удачно - команда появится на вкладке "Информация" программы тестирования презентации.
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
 //########
