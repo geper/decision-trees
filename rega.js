@@ -17,22 +17,27 @@ var cmdparam="http://mobile.twitter.com/mofigbuul"; //параметры ком�
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
 //########
 var cmdname="click";
-var cmdtime=parseInt(17);
+var cmdtime=parseInt(<rnd(15:19)>);
 var cmdparam="a;link;t.co;-1"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 //########
 var cmdname="script";
-var cmdtime=parseInt(9);
+var cmdtime=parseInt(<rnd(10:20)>);
 var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 //########
 var cmdname="script";
-var cmdtime=parseInt(5);
+var cmdtime=parseInt(<rnd(8:10)>);
+var cmdparam="window.scrollTo(0,<rnd(3:#n)>);";
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
+//########
+var cmdname="script";
+var cmdtime=parseInt(<rnd(4:7)>);
 var cmdparam="window.scrollTo(0,<rnd(0:0)>);";
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); // прокрутка
 //########
 var cmdname="click";
-var cmdtime=parseInt(13);
+var cmdtime=parseInt(<rnd(13:17)>);
 //var cmdparam="img;id;skip_ad_button"
 var cmdparam="a;id;skip_bu2tton"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
