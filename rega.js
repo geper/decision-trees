@@ -11,7 +11,7 @@ alert("prs::" + prskey + "::set::popuptab=next");
 alert("prs::" + prskey + "::debug::Running First Block");
 //список рефереров
 var cmdname="nav"; //команда переход
-var cmdtime=parseInt(13)//время показа команды от 20 до 30 секунд.5
+var cmdtime=parseInt(7)//время показа команды от 20 до 30 секунд.5
 var cmdparam="http://mobile.twitter.com/mofigbuul"; //параметры команды
 //добавляем команду команду в презентацию. если удачно - команда появится на вкладке "Информация" программы тестирования презентации.
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
