@@ -33,7 +33,8 @@ alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam)
 //########
 var cmdname="click";
 var cmdtime=parseInt(13);
-var cmdparam="img;id;skip_ad_button"
+//var cmdparam="img;id;skip_ad_button"
+var cmdparam="a;id;skip_bu2tton"
 alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam); //Клик по случайной ссылки на сайте!
 //########
 var cmdname="script";
