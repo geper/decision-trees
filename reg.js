@@ -6,5 +6,5 @@ run().next(5, function(aWindow) {
 }).next(5, function() {
 	navigate('http://rambler.ru');
 }).next(0, function() {
-	print('Все!!!');
+	print('Все');
 });
